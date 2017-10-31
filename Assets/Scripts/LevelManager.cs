@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 	public float _autoLoadNextLevelAfter;
 	void Start(){
-		Invoke ("LoadNextLevel", _autoLoadNextLevelAfter);
+		if (_autoLoadNextLevelAfter != 0) {
+			Invoke ("LoadNextLevel", _autoLoadNextLevelAfter);
+		}
 	}
 	public void LoadLevel(string name){
 		Debug.Log ("Clicked Level load requested for : "+name);
