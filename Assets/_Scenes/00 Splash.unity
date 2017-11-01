@@ -262,8 +262,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1526604712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 232, y: 130.5, z: 0}
-  m_LocalScale: {x: 0.29, y: 0.29, z: 0.29}
+  m_LocalPosition: {x: 235.5, y: 132.5, z: 0}
+  m_LocalScale: {x: 0.29444444, y: 0.29444444, z: 0.29444444}
   m_Children:
   - {fileID: 1135930196}
   m_Father: {fileID: 0}
@@ -625,7 +625,7 @@ Prefab:
     - target: {fileID: 114128697356799278, guid: 630a583a70da7f8439acab1fd5f11be2,
         type: 2}
       propertyPath: _autoLoadNextLevelAfter
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 630a583a70da7f8439acab1fd5f11be2, type: 2}
@@ -741,6 +741,8 @@ MonoBehaviour:
   levelMusicChangeArray:
   - {fileID: 0}
   - {fileID: 8300000, guid: 32ff34a599277174a829f0332b84ac8e, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 0311d7010397d0d429eb31024193d4bb, type: 3}
 --- !u!4 &2054964303
 Transform:
   m_ObjectHideFlags: 0
